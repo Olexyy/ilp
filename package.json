@@ -1,0 +1,33 @@
+{
+  "name": "ilp",
+  "version": "0.0.1",
+  "description": "IL planning",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "cd server && node server.js",
+    "start-dev": "cd server && node server.js --debug=1",
+    "watch-cli": "cd client && npm run watch",
+    "build-cli": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "minimist": "^1.2.6",
+    "socket.io": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olexyy/pps.git"
+  },
+  "keywords": [
+    "planning"
+  ],
+  "author": "Olexii Osadchii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olexyy/ilp/issues"
+  },
+  "homepage": "https://github.com/Olexyy/ilp#readme"
+}
